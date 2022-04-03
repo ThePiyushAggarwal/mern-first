@@ -1,3 +1,4 @@
+// Express asyncHandler for when we don't want to use try catch in the async functions
 const asyncHandler = require('express-async-handler')
 
 const Goal = require('../models/goalModel')
